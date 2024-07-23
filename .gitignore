@@ -31,7 +31,8 @@ yarn-error.log*
 # vercel
 .vercel
 
-/styles/globals.css.map
+// CSS Source map
+*.css.map
 
 # typescript
 *.tsbuildinfo
