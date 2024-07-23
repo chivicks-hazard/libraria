@@ -1,4 +1,9 @@
-import React from 'react'
+import { Metadata } from "next"
+
+const metadata: Metadata = {
+    title: "Sign Up To Libraria",
+    description: "A sign up page for Libraria",
+}
 
 const page = () => {
     return (
@@ -33,4 +38,4 @@ const page = () => {
     )
 }
 
-export default page
+export {page as default, metadata};

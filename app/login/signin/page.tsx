@@ -1,3 +1,10 @@
+import { Metadata } from "next"
+
+const metadata: Metadata = {
+    title: "Sign In To Libraria",
+    description: "A sign in page for Libraria",
+}
+
 const page = () => {
     return (
         <>
@@ -23,4 +30,4 @@ const page = () => {
     )
 }
 
-export default page
+export {page as default, metadata};
