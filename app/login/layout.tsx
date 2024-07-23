@@ -1,12 +1,17 @@
 
 
 const layout = ({children}: {children:React.ReactNode}) => {
+  // const body = 
+
   return (
-    <div className='d-flex justify-content-center align-items-center mt-5 pt-5'>
-            <form action="" className='border border-2 border-lg-5 p-4 w-50'>
-                {children}
-            </form>
-        </div>
+    <div className='py-5 books-bg'>
+      <div className="d-flex justify-content-center align-items-center mt-4 mb-5 h-100">
+        <form action="" className='border border-2 border-lg-5 p-4 w-md-50 glass'>
+            {children}
+        </form>
+      </div>
+      <div className="mb-sm-5 pb-sm-5 mb-lg-3 pb-lg-3"></div>
+    </div>
   )
 }
 

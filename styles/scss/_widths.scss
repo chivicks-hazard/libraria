@@ -1,0 +1,10 @@
+@import 'mods';
+
+$utilities: map-merge($utilities, (
+    "width": map-merge(
+        map-get($utilities, "width"),
+        (responsive: true)
+    )
+));
+
+@import "../../node_modules/bootstrap/scss/utilities/api";
