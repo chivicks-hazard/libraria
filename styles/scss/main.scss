@@ -1,14 +1,13 @@
 @import '../../node_modules/bootstrap/scss/bootstrap';
 
 @import 'widths';
+@import 'lib-breakpoints';
 
 .books-bg {
     background-image: url('../public/images/desktop-login.jpg');
     background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-    // --webkit-backdrop-filter: blur(5px);
-    // backdrop-filter: blur(5px);
     color: white;
     height: 100%;
 }
@@ -17,6 +16,14 @@
 	// background-color: rgba(255, 255, 255, 0.4);
 	backdrop-filter: blur(5px);
 	-webkit-backdrop-filter: blur(5px);
+}
+
+.sidebar {
+    // position: relative;
+    height: inherit;
+    top: 0;
+    bottom: 0;
+    left: 0;
 }
 
 @media screen and (max-width: 768px) {
